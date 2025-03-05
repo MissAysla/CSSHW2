@@ -1,0 +1,131 @@
+/* 2. Skip to Main Content link */
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 10px;
+    background: #fff;
+    color: #000;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.skip-link:focus {
+    top: 10px;
+}
+
+/* 3. Body Styling */
+body {   
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    background-color: #EDECEC;
+    color: #333;
+}
+
+/* 4. Header Styling */
+header {
+    background-color: #00274C;
+    padding: 20px;
+    text-align: center;
+}
+
+/* 5. Navigation Styling */
+nav {
+    display: inline-block;
+    width: 80%;
+    text-align: center;
+    background-color: #00274C;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #EDECEC;
+    font-weight: bold;
+}
+
+/* 6. Style nav images */
+nav img {
+    width: 10%;
+}
+
+/* 7. Main Content Styling */
+main {
+    background-color: #EDECEC;
+    font-size: 18px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+/* 8. Footer Styling */
+footer {
+    background-color: #00274C;
+    color: #EDECEC;
+    padding: 15px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* 9. Commented Out List Item Styling */
+/*
+li {
+    display: inline-block;
+    width: auto;
+}
+*/
+
+/* 10. Grid Layout for Images */
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+}
+
+/* 11. Style only images inside .grid */
+.grid img {
+    width: 100%;
+}
+
+/* 12. Adjust .grid with spacing */
+.grid {
+    justify-content: space-between;
+    align-items: start;
+    row-gap: 15px;
+}
+
+/* 13. Flexbox Layout */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* 14. H1 Styling */
+h1 {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    color: #FFCB05;
+}
+
+/* 15. Paragraph Styling */
+p {
+    line-height: 1.6;
+}
